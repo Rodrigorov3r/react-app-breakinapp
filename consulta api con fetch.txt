@@ -1,0 +1,9 @@
+const consultarAPI = () => {
+    const api = fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes') 
+    //fetch toma la url a la que vamos a hacer la consulta
+    //usa el method json() que va a devolver una promesa en un objeto js, a partir de tomar un json as input. El objeto devuelto puede ser an object, an array, a string, a number...
+    
+    const frase = api.then( respuesta => respuesta.json()); //lo que resuelve acá
+    const guardarFrase = frase.then(resultado => console.log(resultado[0])); //que me lo muestre acá
+
+  };

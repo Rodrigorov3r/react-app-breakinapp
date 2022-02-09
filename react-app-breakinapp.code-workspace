@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "jonkwheeler.styled-components-snippets",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}
